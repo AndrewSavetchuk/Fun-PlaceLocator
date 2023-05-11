@@ -1,0 +1,26 @@
+{
+  "name": "fun-place-locator",
+  "version": "1.0.0",
+  "description": "Map location search tool using address input and marker placement.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open",
+    "build": "webpack --config=webpack.config.prod.js"
+  },
+  "keywords": [
+  "maps",
+  "vanilla javascript",
+  "typescript",
+  "front-end"
+],
+  "author": "Andrew Savetchuk <andrew.savetchuk@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.1.0",
+    "webpack-dev-server": "^4.15.0"
+  }
+}
