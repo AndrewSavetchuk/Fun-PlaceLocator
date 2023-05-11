@@ -1,7 +1,7 @@
 {
   "name": "fun-place-locator",
   "version": "1.0.0",
-  "description": "Map location search tool using address input and marker placement.",
+  "description": "Map location search tool using Leaflet Maps with vanilla JavaScript and TypeScript.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
