@@ -26,7 +26,7 @@ body > div {
 
 .map {
   width: 90%;
-  height: 20rem;
+  height: 30rem;
   border: 1px solid #ccc;
   margin: 2rem auto;
   display: flex;
@@ -38,4 +38,10 @@ body > div {
 .form {
   text-align: center;
   margin: 2rem auto;
+}
+
+.form input[type="text"] {
+  width: 100%;
+  max-width: 240px;
+  margin-bottom: 15px;
 }
